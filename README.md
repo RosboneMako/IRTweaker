@@ -55,7 +55,7 @@ STEPS
 5. Adjust the EQ and/or Graphic EQ.
 6. Select SAVE IR.
 
-MIXING IRS</br>
+MIXING IRS<br/>
 IRs loaded into IRT may sound best when they are in phase of each other. IRT lets the user adjust the IR
 phase/sample position by adjusting IR1 DIST or IR 2 DIST. The analog equivalent of moving a microphone closer
 or farther from the source.
@@ -64,18 +64,18 @@ Adjust IR 1 VOL and IR2 VOL to set the proper mix.
 
 NOTE: The resulting IR is always normalized/maximized and will be max volume!
 
-TWEAKING OUT</br>
+TWEAKING OUT<br/>
 Note that when EQing, louder always sounds better to your ear. Adjust volumes as needed when editing.
 
-You should EQ at a good volume to avoid Fletcher-Munson curve issues.</br>
+You should EQ at a good volume to avoid Fletcher-Munson curve issues.<br/>
 https://en.wikipedia.org/wiki/Equal-loudness_contour
 
-SAVING</br>
+SAVING<br/>
 IRT does not do any magical math to create the final IR. It simply passes a pulse thru the IR, EQ, and GEQ then saves it.
 
-3 BAND STUDIO EQUALIZER</br>
+3 BAND STUDIO EQUALIZER<br/>
 The EQ lets you create very specific bandpass/bandstop filters. This includes controls for amplitude (boost/cut 12dB), Frequency, and bandwidth (Q).
 Set a frequency and Q, then dial the amplitude up or down to modify the sound.
 
-21 BAND GRAPHIC EQ</br>
+21 BAND GRAPHIC EQ<br/>
 The GEQ has 21 fixed frequency filters (+/-12dB) that let you dial in specfic frequencies of the IR. 
