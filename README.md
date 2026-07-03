@@ -7,7 +7,7 @@
 * Version: 1.00
 * Posted: July 2, 2026
 
-![Demo Image](docs/irt_demo_01.jpg)
+![Demo Image](Docs/IRT_Demo_01.jpg)
 
 VERSION
 ------------------------------------------------------------------
