@@ -36,7 +36,7 @@ WHY USE IR TWEAKER
 ------------------------------------------------------------------
 For most mid to high gain amplifier situations, the bulk of the final sound comes from the IR.
 Best results for high gain amps comes from dialing in the correct IR and EQ. IRT lets this
-happen in a CPU hungry way and then save that custom IR. Vreeing up CPU cycles in the device/DAW
+happen in a CPU hungry way and then save that custom IR. Freeing up CPU cycles in the device/DAW
 you using the IRs in.
 
 HOW IT WORKS
@@ -55,7 +55,7 @@ STEPS
 5. Adjust the EQ and/or Graphic EQ.
 6. Select SAVE IR.
 
-MIXING IRS
+MIXING IRS</br>
 IRs loaded into IRT may sound best when they are in phase of each other. IRT lets the user adjust the IR
 phase/sample position by adjusting IR1 DIST or IR 2 DIST. The analog equivalent of moving a microphone closer
 or farther from the source.
@@ -64,18 +64,18 @@ Adjust IR 1 VOL and IR2 VOL to set the proper mix.
 
 NOTE: The resulting IR is always normalized/maximized and will be max volume!
 
-TWEAKING OUT
+TWEAKING OUT</br>
 Note that when EQing, louder always sounds better to your ear. Adjust volumes as needed when editing.
 
 You should EQ at a good volume to avoid Fletcher-Munson curve issues.</br>
 https://en.wikipedia.org/wiki/Equal-loudness_contour
 
-SAVING
+SAVING</br>
 IRT does not do any magical math to create the final IR. It simply passes a pulse thru the IR, EQ, and GEQ then saves it.
 
-3 BAND STUDIO EQUALIZER
+3 BAND STUDIO EQUALIZER</br>
 The EQ lets you create very specific bandpass/bandstop filters. This includes controls for amplitude (boost/cut 12dB), Frequency, and bandwidth (Q).
 Set a frequency and Q, then dial the amplitude up or down to modify the sound.
 
-21 BAND GRAPHIC EQ
+21 BAND GRAPHIC EQ</br>
 The GEQ has 21 fixed frequency filters (+/-12dB) that let you dial in specfic frequencies of the IR. 
