@@ -15,7 +15,7 @@ VERSION 1.00
 * Initial release.<br/>  
 
 NOTE:<br/>
-Version 1.00s-5.06s files use the static runtime library option in JUCE.
+Version 1.00 uses the static runtime library option in JUCE.
 
 SUMMARY
 ------------------------------------------------------------------
@@ -67,10 +67,15 @@ NOTE: The resulting IR is always normalized/maximized and will be max volume!
 TWEAKING OUT
 Note that when EQing, louder always sounds better to your ear. Adjust volumes as needed when editing.
 
-You should EQ at a good volume to avoid Fletcher-Munson curve issues.
+You should EQ at a good volume to avoid Fletcher-Munson curve issues.</br>
 https://en.wikipedia.org/wiki/Equal-loudness_contour
 
 SAVING
 IRT does not do any magical math to create the final IR. It simply passes a pulse thru the IR, EQ, and GEQ then saves it.
 
+3 BAND STUDIO EQUALIZER
+The EQ lets you create very specific bandpass/bandstop filters. This includes controls for amplitude (boost/cut 12dB), Frequency, and bandwidth (Q).
+Set a frequency and Q, then dial the amplitude up or down to modify the sound.
 
+21 BAND GRAPHIC EQ
+The GEQ has 21 fixed frequency filters (+/-12dB) that let you dial in specfic frequencies of the IR. 
