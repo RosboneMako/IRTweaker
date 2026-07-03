@@ -30,4 +30,47 @@ VST's do not save string variables. This means things like
 WAVE files used in the VST will NOT BE AVAILABLE
 from within the DAW at startup or its presets. 
 
+NOTE: This program does not do any adjustments for sample rate! 
+
+WHY USE IR TWEAKER
+------------------------------------------------------------------
+For most mid to high gain amplifier situations, the bulk of the final sound comes from the IR.
+Best results for high gain amps comes from dialing in the correct IR and EQ. IRT lets this
+happen in a CPU hungry way and then save that custom IR. Vreeing up CPU cycles in the device/DAW
+you using the IRs in.
+
+HOW IT WORKS
+------------------------------------------------------------------
+IR Tweaker (IRT) is designed to create custom Impulse Responses (IR). It accomplishes this
+by applying simple EQ methods to an existing IR. EQ options are 3 band Studio EQ and a 21 band Graphic EQ.
+IRT can load two IRs and mix them for even more control. 
+
+The program is designed for IRs that are 2048 samples in length. Longer and Shorter files will be saved as 2048.
+
+STEPS
+1. Start the program in a DAW or Stand alone.
+2. If in a DAW, place the guitar processor before IRT. 
+3. Load an IR by clicking on LOAD IR 1.
+4. If desired, load a second IR by clicking on LOAD IR 2.
+5. Adjust the EQ and/or Graphic EQ.
+6. Select SAVE IR.
+
+MIXING IRS
+IRs loaded into IRT may sound best when they are in phase of each other. IRT lets the user adjust the IR
+phase/sample position by adjusting IR1 DIST or IR 2 DIST. The analog equivalent of moving a microphone closer
+or farther from the source.
+
+Adjust IR 1 VOL and IR2 VOL to set the proper mix.
+
+NOTE: The resulting IR is always normalized/maximized and will be max volume!
+
+TWEAKING OUT
+Note that when EQing, louder always sounds better to your ear. Adjust volumes as needed when editing.
+
+You should EQ at a good volume to avoid Fletcher-Munson curve issues.
+https://en.wikipedia.org/wiki/Equal-loudness_contour
+
+SAVING
+IRT does not do any magical math to create the final IR. It simply passes a pulse thru the IR, EQ, and GEQ then saves it.
+
 
