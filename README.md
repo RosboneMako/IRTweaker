@@ -4,18 +4,28 @@
 * Written in Visual C++ 2022.
 * Rosbone DSP
 * Author: Mako
-* Version: 1.00
-* Posted: July 2, 2026
+* Version: 1.10
+* Posted: July 7, 2026
 
-![Demo Image](Docs/IRT_Demo_01.jpg)
+![Demo Image](Docs/irt_demo_01.jpg)
+![Demo Image](Docs/irt_demo_02.jpg)
 
 VERSION
 ------------------------------------------------------------------
 VERSION 1.00
 * Initial release.<br/>  
 
+VERSION 1.10
+* Fixed IR bug where filter buffers were not cleared.
+* Added simple FFT graph viewer with trace store and data stats.
+* Added Bandwidth options for Graphic Eq.
+* Added not in use watchdog type detection.
+* Disabled all controls when VST is not in use.
+* Clicking the IR name shows path(left click) or filename (right click).
+
 NOTE:<br/>
-Version 1.00 uses the static runtime library option in JUCE.
+The VST/EXE use the static runtime library option in JUCE for maximum
+compatibility.
 
 SUMMARY
 ------------------------------------------------------------------
@@ -78,4 +88,11 @@ The EQ lets you create very specific bandpass/bandstop filters. This includes co
 Set a frequency and Q, then dial the amplitude up or down to modify the sound.
 
 21 BAND GRAPHIC EQ<br/>
-The GEQ has 21 fixed frequency filters (+/-12dB) that let you dial in specfic frequencies of the IR. 
+The GEQ has 21 fixed frequency filters (+/-12dB) that let you dial in specfic frequencies of the IR. The filter bandwidths are selectable at
+Q values of .7, 1.4, 2.0, and 4.0.
+
+FFT FREQUENCY RESPONSE GRAPH
+Click on the Show FFT button converts the GEQ section to a frequency graph.
+Click on CALC to see the FFT of the current setup. 
+Click on TRC B (Trace B) to store the current trace for comparison viewing.
+Main trace (A) is white and the secondary trace (B) is orange.
