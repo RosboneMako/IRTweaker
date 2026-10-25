@@ -4,11 +4,13 @@
 * Written in Visual C++ 2022.
 * Rosbone DSP
 * Author: Mako
-* Version: 1.10
-* Posted: July 7, 2026
+* Version: 1.30
+* Posted: October 25, 2026
 
-![Demo Image](Docs/irt_demo_110_01.jpg)
-![Demo Image](Docs/irt_demo_110_02.jpg)
+![Demo Image](Docs/irbmenu01.png)
+![Demo Image](Docs/irbmenu02.png)
+![Demo Image](Docs/irbmenu03.png)
+![Demo Image](Docs/irbmenu04.png)
 
 VERSION
 ------------------------------------------------------------------
@@ -22,6 +24,10 @@ VERSION 1.10
 * Added not in use watchdog type detection.
 * Disabled all controls when VST is not in use.
 * Clicking the IR name shows path(left click) or filename (right click).
+
+VERSION 1.30
+* Added Frequency View and Guide.<br/>
+* Added Trace B editing and text file saving.<br/>  
 
 NOTE:<br/>
 The VST/EXE use the static runtime library option in JUCE for maximum
