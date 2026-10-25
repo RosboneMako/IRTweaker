@@ -97,8 +97,31 @@ Set a frequency and Q, then dial the amplitude up or down to modify the sound.
 The GEQ has 21 fixed frequency filters (+/-12dB) that let you dial in specfic frequencies of the IR. The filter bandwidths are selectable at
 Q values of .7, 1.4, 2.0, and 4.0.
 
-FFT FREQUENCY RESPONSE GRAPH
-Click on the Show FFT button converts the GEQ section to a frequency graph.
-Click on CALC to see the FFT of the current setup. 
+IR BUILDER MENU TABS
+There are four tabs under the main logo that are used to navigate thru IR Builder. 
+They are: SHOW EQ, SHOW IR, SHOW FREQ, EDIT TRC B.
+
+SHOW EQ
+This is the main tab where all of the real work is done. This tab gives access to the 21 band EQ.
+
+SHOW IR
+This tab lets the user see the measured frequency response of the current IR setup and EQ.
+Click on CALC to see the frequency response of the current setup. 
 Click on TRC B (Trace B) to store the current trace for comparison viewing.
 Main trace (A) is white and the secondary trace (B) is orange.
+Trace B screen position can be adjusted.
+
+SHOW FREQ
+This tab displays a running frequency response. It also displays a guide line that can be used as a reference for EQing a certain response.
+The position and slope of the guide line is adjustable.
+The guide line suggests where your IR frequency response should be to have the fullest balance of frequencies.
+It defaults to a slope of 15 dB between 100 Hz and 15 kHz.
+
+EDIT TRC B
+This tab is used to make a hand edited IR and convert it inside or Room EQ Wizard.
+Trace B can be smoothed and edited by click-dragging in the freq graph area.
+The resulting trace can be saved in a text file for import into Room EQ Wizard.
+Once imported into REW, the frequency data can be saved to an IR.
+
+
+
